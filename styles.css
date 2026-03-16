@@ -136,12 +136,11 @@ select {
   min-width: 0;
 }
 
-.brand-mark {
-  width: 0.95rem;
-  height: 0.95rem;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--mint-strong), var(--navy));
-  box-shadow: 0 0 0 6px rgba(99, 217, 188, 0.12);
+.brand-symbol {
+  width: auto;
+  height: clamp(2.5rem, 4vw, 3.35rem);
+  display: block;
+  border-radius: 0.75rem;
 }
 
 .brand-text,
@@ -153,7 +152,7 @@ h3 {
 }
 
 .brand-text {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
 }
 
@@ -326,7 +325,9 @@ h1 {
 
 .art-card img {
   width: 100%;
+  height: auto;
   border-radius: 1.7rem;
+  object-fit: contain;
 }
 
 .art-caption {
@@ -476,17 +477,21 @@ h1 {
   padding-top: 2rem;
 }
 
-.story-visual {
+.story-quote {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background:
+    linear-gradient(180deg, rgba(99, 217, 188, 0.16), rgba(36, 56, 103, 0.04)),
+    rgba(255, 255, 255, 0.75);
 }
 
-.story-visual img {
-  width: 100%;
-  max-width: 30rem;
-  border-radius: 1.7rem;
+.story-quote p {
+  margin: 0;
+  color: var(--navy);
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.12;
 }
 
 .contact-card {
@@ -560,7 +565,7 @@ h1 {
     padding-top: 1.25rem;
   }
 
-  .story-visual {
+  .story-quote {
     order: -1;
   }
 }
