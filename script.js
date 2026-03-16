@@ -51,7 +51,7 @@ if ("IntersectionObserver" in window && sectionLinks.length > 0) {
         }
 
         sectionLinks.forEach((link) => link.removeAttribute("aria-current"));
-        sectionMap.get(entry.target)?.setAttribute("aria-current", "page");
+        sectionMap.get(entry.target)?.setAttribute("aria-current", "location");
       });
     },
     {
