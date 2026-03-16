@@ -15,6 +15,7 @@
   --radius-lg: 24px;
   --radius-md: 18px;
   --container: 1120px;
+  --header-offset: 9rem;
 }
 
 *,
@@ -25,6 +26,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-offset);
 }
 
 body {
@@ -36,6 +38,10 @@ body {
     radial-gradient(circle at 85% 10%, rgba(36, 56, 103, 0.08), transparent 22%),
     linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
   line-height: 1.65;
+}
+
+main {
+  padding-top: 0.75rem;
 }
 
 img {
@@ -181,11 +187,15 @@ h3 {
   padding: 5rem 0;
 }
 
+section[id] {
+  scroll-margin-top: var(--header-offset);
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
   gap: 3rem;
-  padding-top: 4.5rem;
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
   align-items: center;
 }
 
@@ -512,7 +522,7 @@ h1 {
 
   .hero {
     gap: 2rem;
-    padding-top: 3.5rem;
+    padding-top: 1.25rem;
   }
 }
 
