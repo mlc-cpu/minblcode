@@ -138,28 +138,21 @@ select {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
   min-width: 0;
 }
 
 .brand-symbol {
   width: auto;
-  height: clamp(2.5rem, 4vw, 3.35rem);
+  height: clamp(2.8rem, 4vw, 3.35rem);
   display: block;
   border-radius: 0.75rem;
 }
 
-.brand-text,
 h1,
 h2,
 h3 {
   font-family: "Syne", sans-serif;
   letter-spacing: -0.04em;
-}
-
-.brand-text {
-  font-size: 1.05rem;
-  font-weight: 700;
 }
 
 .site-nav {
@@ -241,7 +234,7 @@ h1 {
 
 .lead {
   margin: 1.5rem 0 0;
-  max-width: 42rem;
+  max-width: 33rem;
 }
 
 .button {
@@ -339,22 +332,13 @@ h1 {
   min-height: 100%;
 }
 
-.project-status {
+.project-meta {
   margin: 0 0 0.85rem;
-  color: var(--text-soft);
-  font-size: 0.85rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.project-type {
-  margin: 0 0 0.5rem;
   color: var(--navy);
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.05em;
-  text-transform: lowercase;
+  text-wrap: pretty;
 }
 
 .project-card h3 {
@@ -375,7 +359,7 @@ h1 {
 }
 
 .story-section {
-  padding-top: 1rem;
+  padding-top: 0;
 }
 
 .contact-card {
