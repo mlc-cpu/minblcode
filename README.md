@@ -15,7 +15,7 @@
 - 한글 표기는 `민블코드`를 사용합니다.
 - 페이지 카피는 짧고 정돈된 느낌을 우선합니다.
 - 브랜드 이름 표기는 항상 `minblcode`입니다.
-- 연락 이메일은 현재 `minblecode@gmail.com`을 사용합니다.
+- 연락 이메일은 현재 `minblcode@gmail.com`을 사용합니다.
 
 ## Current Page Structure
 
