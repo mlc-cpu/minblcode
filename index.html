@@ -28,9 +28,6 @@
   <body id="top">
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
 
-    <div class="page-glow page-glow-a" aria-hidden="true"></div>
-    <div class="page-glow page-glow-b" aria-hidden="true"></div>
-
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Minblcode 홈으로">
         <img
@@ -51,18 +48,18 @@
       </nav>
     </header>
 
-    <main id="main">
+    <main id="main" class="page-main">
       <section class="hero section">
-        <div class="hero-copy" data-reveal>
-          <h1>생각 있는 게임과 오래 남는 도구를 만듭니다.</h1>
-          <p class="lead">
-            <strong>Poku</strong>와 <strong>찰떡 제시어 퀴즈</strong>를 만들었습니다.
-            지금은 <strong>전자액자 앱</strong>을 만들고 있습니다.
-          </p>
-        </div>
+        <div class="hero-panel card" data-reveal>
+          <div class="hero-copy">
+            <h1>생각 있는 게임과 오래 남는 도구를 만듭니다.</h1>
+            <p class="lead">
+              <strong>Poku</strong>와 <strong>찰떡 제시어 퀴즈</strong>를 만들었습니다.
+              지금은 <strong>전자액자 앱</strong>을 만들고 있습니다.
+            </p>
+          </div>
 
-        <div class="hero-art" data-reveal>
-          <div class="art-card">
+          <div class="hero-art">
             <img
               src="minblcode_edited_logo.png"
               alt="minblcode 로고와 games that think, tools that play 문구"
@@ -77,21 +74,17 @@
 
       <section id="about" class="section story-section" aria-labelledby="story-title">
         <div class="section-heading" data-reveal>
-          <p class="eyebrow">소개</p>
-          <h2 id="story-title">작게 시작해도 오래 남는 소프트웨어를 만듭니다.</h2>
+          <h2 id="story-title">소개</h2>
         </div>
 
-        <div class="story-grid">
-          <div class="story-copy card" data-reveal>
-            <p>게임에서 시작해 일상에 남는 소프트웨어를 만들고 있습니다.</p>
-            <p>Minblcode는 mint block code에서 온 이름입니다.</p>
-          </div>
+        <div class="story-copy card" data-reveal>
+          <p><strong>Minblcode(민블코드)</strong>는 mint block code에서 온 이름입니다.</p>
+          <p>게임에서 시작해 일상에 오래 남는 소프트웨어를 만들고 있습니다.</p>
         </div>
       </section>
 
       <section id="work" class="section" aria-labelledby="work-title">
         <div class="section-heading" data-reveal>
-          <p class="eyebrow">프로젝트</p>
           <h2 id="work-title">프로젝트</h2>
         </div>
 
@@ -117,8 +110,7 @@
       </section>
 
       <section id="contact" class="section contact-section" aria-labelledby="contact-title">
-        <div class="contact-card" data-reveal>
-          <p class="eyebrow">문의</p>
+        <div class="contact-card card" data-reveal>
           <h2 id="contact-title">문의</h2>
           <a class="button button-primary" href="mailto:minblecode@gmail.com">
             minblecode@gmail.com
