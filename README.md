@@ -1,6 +1,6 @@
-# Minblcode Homepage
+# minblcode Homepage
 
-`minblcode.com`에 배포되는 Minblcode 공식 홈페이지 저장소입니다.
+`minblcode.com`에 배포되는 minblcode 공식 홈페이지 저장소입니다.
 
 ## Overview
 
@@ -11,7 +11,7 @@
 
 ## Brand Context
 
-- Minblcode는 작고 똑똑한 인디 스튜디오 톤을 유지합니다.
+- minblcode는 작고 똑똑한 인디 스튜디오 톤을 유지합니다.
 - 한글 표기는 `민블코드`를 사용합니다.
 - 페이지 카피는 짧고 정돈된 느낌을 우선합니다.
 - 브랜드 이름 표기는 항상 `minblcode`입니다.
